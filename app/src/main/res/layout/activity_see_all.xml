@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".see_all">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide1"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/ane"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Anabolisme"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide2"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/animalia"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Animalia"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide3"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/arthropoda"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Arthropoda"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide4"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/chordata"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Chordata"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide5"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/echinodermata"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Echinodermata"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide6"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/enzim"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Enzim"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide7"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/fungi"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Fungi"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide8"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/jaringanhewan"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Jaringan Hewan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide9"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/katabolisme"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Katabolisme"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide10"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/makanan"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Makanan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide11"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/mollusca"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Mollusca"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide12"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/monera"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Monera"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide13"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/pembelahan"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Pembelahan Sel"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide14"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/hewan"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Pertumbuhan dan \nPerkembangan \nHewan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide15"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/tumbuhan"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Pertumbuhan dan \nPerkembangan \nTumbuhan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide16"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/porifera"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Porifera \ndan \nCoelenterata"
+                            android:textColor="#2d2d2d"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide17"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/protista"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Protista"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide18"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/dna"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Replikasi DNA \ndan \nSintesis Protein"
+                            android:textColor="#2d2d2d"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide19"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/sel"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sel"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide20"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/eksresi"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Eksresi"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide21"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/gerak"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Gerak"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide22"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/hormon"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Hormon"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide23"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/imun"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Imun"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide24"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/indera"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Indera"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide25"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/cerna"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem \nPencernaan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide26"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/napas"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem \nPernapasan"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide27"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/repro"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem \nReproduksi"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide28"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/saraf"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Saraf"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide29"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/sirkulasi"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Sistem Sirkulasi"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide30"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/gen"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Substansi Gen"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide31"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/vermes"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Vermes"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/slide32"
+                        android:layout_width="120dp"
+                        android:layout_height="210dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#EDF1F8"
+                        android:orientation="vertical"
+                        android:outlineSpotShadowColor="#2d2d2d"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="10dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/virus"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/mr"
+                            android:text="Virus"
+                            android:textColor="#2d2d2d"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout >
